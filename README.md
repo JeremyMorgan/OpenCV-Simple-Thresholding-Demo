@@ -1,2 +1,2 @@
-# OpenCV-Thresholding-Demo-
+# OpenCV Simple Thresholding Demo
 Thresholding Demo
