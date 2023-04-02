@@ -9,7 +9,7 @@ max_value = 255
 
 
 ret, thresholded_image = cv2.threshold(
-    image, threshold_value, max_value, cv2.THRESH_TOZERO_INV)
+    image, threshold_value, max_value, cv2.THRESH_BINARY)
 
 plt.subplot(1, 2, 1)
 plt.imshow(image, cmap='gray')
